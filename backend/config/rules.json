@@ -1,0 +1,5 @@
+{
+  "overspeed": { "escalate_if_count": 3, "window_mins": 60, "escalate_to": "CRITICAL" },
+  "feedback_negative": { "escalate_if_count": 2, "window_mins": 1440, "escalate_to": "CRITICAL" },
+  "compliance": { "auto_close_if": "document_valid", "expires_mins": 10080 }
+}
